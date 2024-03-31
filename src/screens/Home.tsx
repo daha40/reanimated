@@ -2,7 +2,6 @@ import { View, Button , TextInput, ScrollView,Image} from 'react-native'
 import React from 'react'
 import { HomeScreenProps } from '../navigation/RoutStacks'
 import Animated, { useSharedValue, withTiming ,withSpring, useAnimatedStyle } from 'react-native-reanimated'
-import { images } from '../../assets/fake'
 
 const Animatedinput = Animated.createAnimatedComponent(TextInput)
 
